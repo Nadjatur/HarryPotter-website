@@ -1,0 +1,52 @@
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Prijavi se</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="java.js"></script>
+</head>
+<body>
+		<div class="w">
+		<nav>
+			<button class="dugme"><a href="pocetna.html">Pocetna</a></button>
+			<button class="dugme"><a href="Sortirajucisesir.html">Sortirajuci sesir</a></button>
+			<button class="dugme"><a href="forma.html">Prijavi se</a></button>
+			<button class="dugme"><a href="about.html">O Hogwartsu</a></button>
+			<button class="dugme"><a href="Prodavnica.html">Prodavnica</a></button>
+			<button class="dugme"><a href="igra.html">Igra</a></button>
+			
+			
+			</nav>
+		</div>
+		<br>
+		<br>
+	<form>
+		<fieldset>
+			<legend>Postani carobnjak</legend>
+			<p>Ime i prezime:</p>
+			<input type="text" name="ime" placeholder="Ime i prezime...">
+			<p>Broj godina:</p>
+			<input type="text" name="godiste" placeholder="Vas broj godina">
+			<p>E-mail</p>
+			<input type="e-mail" placeholder="E-mail">
+			<p>Lozinka</p>
+			<input type="password" placeholder="Lozinka">
+			<p>Vas pol:</p>
+			<input type="radio" name="Pol">Musko
+			<input type="radio" name="Pol">Zensko
+			<p>Odaberi kucu u Hogwartsu</p>
+			<select name="izbor">
+				<option value="grif.jpg">Gryffindor</option>
+				<option value="sli.jpeg">Slytherin</option>
+				<option value="hafl.jpg">Hufflepuff</option>
+				<option value="rawe.jpg">Ravenclaw</option>
+			</select>
+			<input type="submit" value="Posalji" onClick="javascript:Sennd(this.form)">
+			<input type="reset" value="Reset">
+		</fieldset>
+	</form>
+		<br><br><br>
+	<div class="p"><p>Copyright @ 2020 by Nadja Tur</p></div>
+</body>
+</html>

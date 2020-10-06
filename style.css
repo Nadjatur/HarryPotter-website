@@ -1,0 +1,226 @@
+body{
+	
+	background-image: url("d.jpg");
+	font-family: Arial;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	
+
+}
+.nana:hover{}
+.dugme{
+		position: relative;
+		display: inline;
+		background: white;
+		font-weight: bold;
+		padding: 15px 30px;
+		font-size: 16px;
+		border:3px solid black;
+		border-radius: 10px;
+	}
+.w {
+    text-align: center;
+	
+	
+	}
+h1{text-align:center;
+color:white;}
+	.anim{
+	height:300px;
+	width:300px;
+	position:absolute;
+	animation:anim 5s infinite;
+	}
+A {text-decoration: none;
+		
+	}
+	@keyframes anim{
+	0%{left:0px;bottom:0px;}
+	25%{left:25%;bottom:200px;}
+	50%{left:50%;bottom:0px;}
+	75%{left:75%;bottom:200px;}
+	100%{left:100%;bottom:0px;}
+}
+.tr{width: 20%; height:20%;}
+.p{color:white;
+		text-align:center;
+		  
+			width: 100%;
+			bottom: 10px;
+  
+		}
+
+.t{	 background-color: grey;
+  width: 80%;
+  margin-top:50%;
+  margin-bottom:25%;
+  position: absolute;
+  color:white;
+  font-family:Cursive;
+  left: 50%;
+  top: 50%;
+  text-align:center;
+  transform: translate(-50%, -50%);
+	
+	}
+	.slike2{position:center;
+		margin-left: 10%;
+  }
+  .slike{position:center;
+		margin-left: 1%;
+  }
+	h2{text-align:center;}
+	.nana {
+  position: relative;
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: 30%;
+  text-align:center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.nana:hover .dropdown-content {display: block;}
+
+@media screen and (min-width: 800px){
+	
+	body{
+	background-image: url("11.gif");
+	background-color:black;
+	font-family: Arial;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+	.ham{display: none;}
+	body{
+	background-image: url("11.gif");
+	background-color:black;
+	font-family: Arial;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+		}
+	
+	A {text-decoration: none;
+		color:purple;
+	}
+	.t{	 background-color: grey;
+  width: 75%;
+  margin-top:0%;
+  Margin-bottom:0%;
+  position: absolute;
+  color:white;
+  font-family:Cursive;
+  left: 50%;
+  top: 50%;
+  text-align:center;
+  transform: translate(-50%, -50%);
+	
+	}
+	.dugme{
+		position: relative;
+		display: inline;
+		background: white;
+		
+		font-weight: bold;
+		padding: 15px 30px;
+		font-size: 16px;
+		border:3px solid black;
+		border-radius: 10px;
+	}
+									}
+	
+	
+	input[type=text]{
+	width: 50%;
+	border: 2px solid black;
+	color:white;
+	border-radius: 15px;
+	padding: 20px;
+	background: linear-gradient(blue,purple);
+}
+input[type=e-mail]{
+	width: 50%;
+	border: 2px solid blue;
+	border-radius: 15px;
+	padding: 20px;
+	background: none;
+}
+select{
+	width: 50%;
+	border: 2px solid purple;
+	border-radius: 15px;
+	padding: 20px;
+	background: none;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+input[type=password]{
+	width: 50%;
+	border: 2px solid purple;
+	border-radius: 15px;
+	padding: 20px;
+	background: pink;
+}
+input[type=submit]{
+
+	display: inline;
+	margin-top: 20px;
+	border: 2px solid blue;
+	padding: 10px ;
+	color:white;
+	border-radius: 15px;
+	background: purple;
+	margin-right: auto;
+	margin-left: auto;
+}
+input[type=submit]:hover{
+	background: blue;
+	transition: 1.5s;
+}
+input[type=reset]{
+	display: inline;
+	margin-top: 20px;
+	border: 2px solid blue;
+	padding: 10px 40px;
+	border-radius: 15px;
+	background: purple;
+	color:white;
+	margin-right: auto;
+	margin-left: auto;
+}
+input[type=reset]:hover{
+	background: rgba(255,165,0,0.1);
+	transition: 1.5s;
+}
+form{
+	width: 75%;
+	
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: bold;
+	background-image: url(1211.jpg);
+}
+fieldset{
+	font-family: Verdana;
+	border: 5px dotted black;
+}
